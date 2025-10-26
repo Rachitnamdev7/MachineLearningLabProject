@@ -1,0 +1,44 @@
+Create Virtual Enviroment
+open Train_Ticket_Predictor in cmd 
+run command ->
+
+step 1 :- 
+python -m venv venv
+
+step 2 :- 
+venv\Scripts\activate
+
+step 3 :-
+pip install -r requirement.txt
+
+step 4 :- 
+python app.py
+
+step 5 :- open LocalHost on chrome 
+http://127.0.0.1:5000
+
+Enter input Details
+Example 
+
+Journey Details
+------------------
+Source Station = PA
+Destination Station = VSKP
+Journey Date = 12 / 12 /2025
+click on show Trains
+
+
+Select Train
+--------------
+choose any Train
+continue
+
+Enter Passenger Details
+------------------------
+Class = 2A
+Number of passengers (1 to 4)
+WL of First Passenger = 45
+predict 
+
+
+Results (Prediction)
